@@ -1,0 +1,13 @@
+
+//-------------- Config de hardware: FUENTE ÚNICA = PCB ----------------------
+//  -> genera TARGET:inc/systemConfig.h (fuses)
+//          TARGET:inc/system.h       (FOSC/FCY + EMIC_BUS_I2C_PORT)
+//          TARGET:inc/pins.h         (TRIS_/LAT_/CN_ de Led1, SCL, SDA, ...)
+
+//-------------- Datos de placa para el bootloader (nombre + puerto I2C) ------
+
+//-------------- Fuentes del bootloader --------------------------------------
+
+//-------------- Linker del bootloader (mapa relocado al tope) ---------------
+//  (nombre p24..., convención de los .gld del SDK; ucName es pic24...)
+
