@@ -1,22 +1,28 @@
 Microchip Technology Inc, v2.10 (A)
 
 Tool Name:
-  /opt/microchip/xc16/v2.10/bin/bin/../bin/elf-ld
+  c:\program files\microchip\xc16\v2.10\bin\bin\..\bin/elf-ld.exe
 
 Command:
   -p24FJ64GA002 \
   -o \
-  /root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/dist/production/target.production.elf \
-  -L/opt/microchip/xc16/v2.10/bin/bin/.. \
-  -L/opt/microchip/xc16/v2.10/bin/bin/../../lib \
-  -L/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld \
-  -L/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24F/gld \
-  -L/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24H/gld \
-  -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC30F/gld \
-  -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld \
-  -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld \
-  -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld \
-  /root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/build/default/production/boot_main.o \
+  C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\dist\production\target.production.elf \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/.. \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../lib \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../lib/PIC24E \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../lib/PIC24F \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/PIC24F/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../lib/PIC24H \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/PIC24H/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../lib/dsPIC30F \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/dsPIC30F/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../lib/dsPIC33E \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../lib/dsPIC33F \
+  -Lc:/program files/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld \
+  C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\build\default\production\boot_main.o \
   --defsym=__MPLAB_BUILD=1 \
   --defsym=__MPLAB_DEBUG=0 \
   -Tp24FJ64GA002.gld.00 \
@@ -31,28 +37,26 @@ Command:
   --stackguard=16 \
   --no-force-link \
   --smart-io \
-  -Map=/root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/dist/production/target.production.map \
+  -Map=C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\dist\production\target.production.map \
   --report-mem \
   --memorysummary \
-  /root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/dist/production/memoryfile.xml \
+  C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\dist\production\memoryfile.xml \
   -start-group \
   --library=c99-pic30-elf \
   --library=m-elf \
   --library=c99-elf \
   -end-group \
 
-
-Optional library libpPIC24Fxxx.a not found
 Archive member included because of file (symbol)
 
-/opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(crt0_standard.o)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt0_standard.o)
                               (__resetPRI)
-/opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(data_init_standard.o)
-                              /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(crt0_standard.o) (__data_init_standard)
-/opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(crt_start_mode_normal.Meo)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(data_init_standard.o)
+                              c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt0_standard.o) (__data_init_standard)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt_start_mode_normal.Meo)
                               (__crt_start_mode_normal)
-/opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(delay32.Meo)
-                              /root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/build/default/production/boot_main.o (___delay32)
+c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(delay32.Meo)
+                              C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\build\default\production\boot_main.o (___delay32)
 
 
 xc16-ld 2.10 (A)
@@ -66,7 +70,7 @@ Default Scalar Model: Small
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x200                0xce           0x135  (309)
-_0x71b60c73d000_at_address_0xa000    0xa000                 0x8             0xc  (12)
+_00000000049C7000_at_address_000000000000A000    0xa000                 0x8             0xc  (12)
 .const                      0xa008                0x12            0x1b  (27)
 .text                       0xa01a               0x7dc           0xbca  (3018)
 .init.delay32               0xa7f6                0x1c            0x2a  (42)
@@ -170,15 +174,15 @@ aivt             0x000104           0x0000fc
 program          0x000200           0x00a9fc           xr
 CONFIG2          0x00abfc           0x000002  
 CONFIG1          0x00abfe           0x000002  
-*default*        0x000000           0xffffffffffffffff  
+*default*        0x000000           0xffffffff  
 
 Linker script and memory map
 
-LOAD /root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/build/default/production/boot_main.o
+LOAD C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\build\default\production\boot_main.o
                     0x0001                  __MPLAB_BUILD = 0x1
                     0x0000                  __MPLAB_DEBUG = 0x0
-LOAD pPIC24Fxxx
-LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libfx-elf.a
+LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib/PIC24F\libpPIC24Fxxx-elf.a
+LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libfx-elf.a
                     0xabfc                  __CONFIG2 = 0xabfc
                     0xabfe                  __CONFIG1 = 0xabfe
                     0x0001                  __NO_HANDLES = 0x1
@@ -197,13 +201,13 @@ LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libfx-elf.a
 
 .text             0x000200         0xce
  *(.init)
- .init            0x000200         0x4c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(crt0_standard.o)
-                  0x000200                  __reset
+ .init            0x000200         0x4c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt0_standard.o)
                   0x000200                  __resetPRI
+                  0x000200                  __reset
                   0x00023c                  __psv_init
- .init            0x00024c         0x7c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(data_init_standard.o)
-                  0x000252                  __data_init
+ .init            0x00024c         0x7c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(data_init_standard.o)
                   0x000252                  __data_init_standard
+                  0x000252                  __data_init
  *(.user_init)
  *(.handle)
  *(.isr*)
@@ -214,9 +218,9 @@ LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libfx-elf.a
  *(.libdsp)
  *(.lib*)
  .libpic30_crt_start_mode
-                  0x0002cc          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(crt_start_mode_normal.Meo)
-                  0x0002cc                  __crt_start_mode_normal
+                  0x0002cc          0x2 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt_start_mode_normal.Meo)
                   0x0002cc                  __crt_start_mode
+                  0x0002cc                  __crt_start_mode_normal
 
 usercode
  *(usercode)
@@ -840,27 +844,27 @@ __CONFIG1
                     0x0230                  UART2 = 0x230
                     0x0230                  _UART2 = 0x230
 START GROUP
-LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a
-LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a
-LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a
+LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a
+LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libm-elf.a
+LOAD c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a
 END GROUP
-OUTPUT(/root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/dist/production/target.production.elf elf32-pic30)
+OUTPUT(C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\dist\production\target.production.elf elf32-pic30)
 LOAD default_isr
 LOAD data_init
 
 __c30_signature
                   0x000000         0x18
  __c30_signature
-                  0x000000          0x6 /root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/build/default/production/boot_main.o
+                  0x000000          0x6 C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\build\default\production\boot_main.o
  __c30_signature
-                  0x000006          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(crt0_standard.o)
+                  0x000006          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(crt0_standard.o)
  __c30_signature
-                  0x00000c          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(data_init_standard.o)
+                  0x00000c          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(data_init_standard.o)
  __c30_signature
-                  0x000012          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(delay32.Meo)
+                  0x000012          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(delay32.Meo)
 
 .nbss               0x0800         0x1e
- .nbss              0x0800         0x1e /root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/build/default/production/boot_main.o
+ .nbss              0x0800         0x1e C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\build\default\production\boot_main.o
                     0x0800                  _primerByte
                     0x0801                  _I2Chit
                     0x0802                  _I2Cdata
@@ -878,32 +882,32 @@ __c30_signature
                     0x081c                  _buffidx
 
 .bss                0x081e         0x60
- .bss               0x081e         0x60 /root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/build/default/production/boot_main.o
+ .bss               0x081e         0x60 C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\build\default\production\boot_main.o
                     0x081e                  _data
                     0x083e                  _buffer
 
-_0x71b60c73d000_at_address_0xa000
+_00000000049C7000_at_address_000000000000A000
                   0x00a000          0x8
- _0x71b60c73d000_at_address_0xa000
-                  0x00a000          0x8 /root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/build/default/production/boot_main.o
+ _00000000049C7000_at_address_000000000000A000
+                  0x00a000          0x8 C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\build\default\production\boot_main.o
                   0x00a000                  _g_moduleId
 
 .config_JTAGEN    0x00abfe          0x2
  .config_JTAGEN
-                  0x00abfe          0x2 /root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/build/default/production/boot_main.o
+                  0x00abfe          0x2 C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\build\default\production\boot_main.o
 
 .config_IESO      0x00abfc          0x2
- .config_IESO     0x00abfc          0x2 /root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/build/default/production/boot_main.o
+ .config_IESO     0x00abfc          0x2 C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\build\default\production\boot_main.o
 
 .const            0x00a008         0x12 load address 0x00a008  
- .const           0x00a008         0x12 /root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/build/default/production/boot_main.o
+ .const           0x00a008         0x12 C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\build\default\production\boot_main.o
 
 .text             0x00a01a        0x7dc
- .text            0x00a01a        0x7dc /root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/build/default/production/boot_main.o
+ .text            0x00a01a        0x7dc C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\build\default\production\boot_main.o
                   0x00a28e                  _main
 
 .init.delay32     0x00a7f6         0x1c
- .init.delay32    0x00a7f6         0x1c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(delay32.Meo)
+ .init.delay32    0x00a7f6         0x1c c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(delay32.Meo)
                   0x00a7f6                  ___delay32
 
 .dinit            0x00a812          0xe

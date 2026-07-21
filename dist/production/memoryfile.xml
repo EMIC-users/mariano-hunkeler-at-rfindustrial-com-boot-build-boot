@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project>
-  <executable name="/root/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT/dist/production/target.production.elf">
+  <executable name="C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/boot_build/BOOT\dist\production\target.production.elf">
     <memory name="data">
       <units>bytes</units>
       <length>8192</length>
